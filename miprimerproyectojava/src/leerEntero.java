@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LeerEntero {
+public class leerEntero {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -8,5 +8,6 @@ public class LeerEntero {
         int numero = scanner.nextInt();
 
         System.out.println("Número entero leído: " + numero);
+        scanner.close();
     }
 }

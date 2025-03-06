@@ -12,8 +12,8 @@ public class Main {
         double media = (num1 + num2 + num3) / 3;
 
         System.out.println("La media de los tres números es: " + media);
-        
         scanner.close();
+        
         
     }
 }

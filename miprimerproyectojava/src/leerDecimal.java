@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class LeerDecimal {
+public class leerDecimal {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
 
@@ -8,5 +8,6 @@ public class LeerDecimal {
         double decimal = scanner.nextDouble();
 
         System.out.println("Número decimal leído: " + decimal);
+        scanner.close();
     }
 }
