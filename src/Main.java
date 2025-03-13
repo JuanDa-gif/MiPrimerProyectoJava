@@ -16,6 +16,6 @@ public class Main {
         System.out.println("La media de los tres números es: " + media);
         scanner.close();
         
-        
+         }   
     }
 }
